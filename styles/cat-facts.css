@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Open+Sans&family=Roboto:wght@100&display=swap");
+
 * {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 html,
@@ -9,7 +11,7 @@ body {
 }
 
 body {
-  background-color: #555;
+  background-color: darkslategray;
 }
 
 ul {
@@ -17,16 +19,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: lightgray;
 }
 
 li {
-  float: right;
+  float: left;
 }
 
 li a {
   display: block;
-  color: whitesmoke;
+  color: #333;
   text-align: center;
   padding: 16px;
   text-decoration: none;
@@ -34,7 +36,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #3264ff;
+  background-color: gray;
 }
 
 h1 {
@@ -58,11 +60,11 @@ h1 {
 }
 
 #catFact-content {
-  background-color: #444;
-  color: whitesmoke;
+  background-color: lightgray;
+  color: #333;
   margin: 8px 80px;
   padding: 25px;
-  border: 1px solid #4a4a4a;
+  border: 1px solid slategray;
   border-radius: 0.375em;
   font-size: 1.2em;
 }
@@ -70,12 +72,12 @@ h1 {
 #catFact-button {
   align-items: center;
   appearance: none;
-  background-color: #444;
-  border: 1px solid #888;
+  background-color: lightgray;
+  border: 2px solid whitesmoke;
   border-radius: 0.375em;
   box-shadow: none;
   box-sizing: border-box;
-  color: whitesmoke;
+  color: #333;
   cursor: pointer;
   display: inline-flex;
   font-size: 1rem;
@@ -92,13 +94,8 @@ h1 {
   white-space: nowrap;
 }
 
-#catFact-button:active {
-  border-color: #4a4a4a;
-  outline: 0;
-}
-
 #catFact-button:hover {
-  border-color: whitesmoke;
+  border-color: lightslategray;
 }
 
 footer p {
